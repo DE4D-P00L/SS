@@ -2,10 +2,10 @@
     <section class="p-3">
         <div class="p-10 md:px-[80px] md:py-[50px] bg-white rounded-3xl grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div class="flex flex-col gap-[40px]">
-                <h3 class="text-[48px] font-semibold">Digital Marketing FAQs</h3>
+                <h3 class="text-[35px] sm:text-[48px] font-semibold">Digital Marketing FAQs</h3>
                 <p class="font-light text-[20px]">As a leading digital marketing agency, we are dedicated to providing comprehensive educational resources and answering frequently asked questions to help our clients.</p>
                 <div class="flex sm:flex-row flex-col gap-5 font-semibold">
-                <button class=" text-black border border-black px-10 py-3 rounded-full space-x-4">
+                <button class=" text-black border border-black px-10 py-3 rounded-full space-x-4 hover:text-white hover:bg-black">
                     More Questions
                 </button>
                 <button class="underline underline-offset-2">Contact Us</button>

@@ -1,5 +1,6 @@
 <template>
-  <nav class="h-[110px] items-center justify-between px-[42px] max-w-[1440px] mx-auto hidden md:flex">
+  <div class="w-screen bg-white sticky top-0  z-10">
+    <nav class="h-[110px] items-center justify-between px-[42px] max-w-[1440px] mx-auto hidden md:flex bg-white opacity-100">
     <div class="flex gap-[74px]">
         <div class="flex gap-2 items-center">
             <img src="../assets/logo.png" alt="" class="size-10">
@@ -18,14 +19,15 @@
         <button class="bg-black text-white px-[13px] py-[13px] rounded-full shrink-0"><img src="../assets/bell.png" alt=""></button>
     </div>
   </nav>
-  <nav class="h-[110px] relative flex items-center justify-between px-[42px] max-w-[1440px] mx-auto md:hidden">
+  </div>
+  <nav class="h-[110px] flex items-center justify-between px-[42px] max-w-[1440px] mx-auto md:hidden sticky top-0 bg-white opacity-100 z-10">
     <div class="flex gap-5 justify-between w-full">
-        <div class="flex gap-2 items-center z-[12]">
+        <div class="flex gap-2 items-center z-[999]">
             <img src="../assets/logo.png" alt="" class="size-10">
             <span class="font-bold text-lg">edvanta</span>
         </div>
-        <button class="size-8 z-[12]" @click="toggleMenu"><img src="../assets/menu.png" alt="" class="h-full"></button>
-        <ul :class="menuOpen ?'flex':'hidden'" class="z-1 flex-col items-center justify-between py-[300px] font-semibold inset-0 h-screen fixed bg-white z-10">
+        <button class="size-8 z-[101] " @click="toggleMenu"><img src="../assets/menu.png" alt=""></button>
+        <ul :class="menuOpen ?'flex':'hidden'" class="flex-col items-center justify-between py-[200px] font-semibold inset-0 h-screen fixed bg-white z-[100]">
             <li><a href="" class="flex items-center gap-2">Service <img src="../assets/down.png" alt=""></a></li>
             <li><a href="" class="flex items-center gap-2">Agency <img src="../assets/down.png" alt=""></a></li>
             <li><a href="" class="flex items-center gap-2">Case study <img src="../assets/down.png" alt=""></a></li>

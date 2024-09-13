@@ -11,7 +11,7 @@ import FooterSection from './components/FooterSection.vue';
 
 <template>
   <NavBar/>
-  <main class="px-[30px] max-w-[1440px] mx-auto">
+  <main class="px-[30px] max-w-[1440px] mx-auto -z-[10]">
     <HeroSection/>
     <ServicesSection/>
     <ProjectsSection />

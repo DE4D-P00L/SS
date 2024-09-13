@@ -1,8 +1,9 @@
 <template>
     <footer class="p-3">
-        <div class="bg-black px-[80px] py-[60px] flex justify-between w-full rounded-[50px] items-center flex-wrap gap-3 my-[44px]">
+        <div class="bg-black sm:px-[80px] sm:py-[60px] p-10 flex justify-between w-full rounded-[50px] items-center flex-wrap gap-3 my-[44px] relative z-[1] overflow-hidden">
+            <img src="../assets/bg.png" class="absolute object-cover top-0 -z-[1] left-0 object-[-100px] opacity-65 scale-x-150" alt="">
             <span class="text-[30px] md:text-[60px] lg:text-[70px] font-semibold text-white">Ready to work with us ?</span>
-            <button class="bg-white px-7 font-bold py-3 rounded-full space-x-4">Get Started <span>→</span></button>
+            <button class="bg-white px-7 font-bold py-3 rounded-full flex gap-[30px] hover:text-white hover:bg-black border-2 gover:border-white">Get Started <span>→</span></button>
         </div>
         <div class="grid grid-cols-1 gap-y-5 md:grid-cols-2 md:px-[80px] py-[40px]">
             <div class="pr-0 md:pr-[108px] flex flex-col gap-[30px]">

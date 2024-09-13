@@ -4,7 +4,7 @@
             <h2 class="font-semibold text-[40px] md:text-[72px] -tracking-[3%] leading-[3rem] sm:leading-[80px]">Stay ahead of the curve with our forward-thinking </h2>
             <p class="text-sm font-light max-w-[60ch]">An award-winning SEO agency with disciplines in digital marketing, design, and website development. focused on understanding you.</p>
             <div class="flex gap-5 font-semibold flex-wrap">
-                <button class="bg-black text-white px-10 py-3 rounded-full space-x-4 w-full sm:w-fit"><span>Schedule</span> <span>→</span></button>
+                <button class="bg-black text-white px-10 py-3 rounded-full space-x-4 w-full sm:w-fit hover:text-black hover:bg-transparent border-2 hover:border-black"><span>Schedule</span> <span>→</span></button>
                 <button class="underline underline-offset-2 text-center w-full sm:w-fit sm:text-left ">View Case Study</button>
             </div>
             <div class="flex items-center mt-10 flex-wrap gap-y-3">
@@ -26,12 +26,13 @@
                     <h3 class="text-center font-bold text-6xl ">230+</h3>
                     <p class="font-light">some big companies that we work with, and trust us very much</p>
                     <div class="flex mt-5">
-                        <div class="bg-black h-2 w-full"></div>
-                        <div class="bg-[#cecdcd] h-2 w-full"></div>
+                        <div class="bg-black h-2 w-[70%]"></div>
+                        <div class="bg-[#cecdcd] h-2 w-[30%]"></div>
                     </div>
                 </div>
             </div>
-            <div class="bg-black rounded-[30px] text-white flex">
+            <div class="bg-black rounded-[30px] text-white flex relative z-[1] overflow-hidden">
+                <img src="../assets/bg.png" class="absolute object-cover top-0 -z-[1] -left-[300px] rotate-60 scale-125" alt="">
                 <div class="flex flex-col justify-center p-5 gap-2">
                     <div class="flex items-center gap-3"><div class="h-[1px] bg-white w-[54px] "></div><p>Drive More Traffic and Sales</p></div>
                     <h3 class="text-3xl font-bold">Drive more traffic and product sales </h3>
