@@ -8,8 +8,8 @@
                 <button class="underline underline-offset-2 text-center w-full sm:w-fit sm:text-left ">View Case Study</button>
             </div>
             <div class="flex items-center mt-10 flex-wrap gap-y-3">
-                <p class="max-w-[170px]">Trusted by the world's biggest brands</p>
-                <div class="flex items-center gap-5">
+                <p class="max-w-[170px] font-semibold">Trusted by the world's biggest brands</p>
+                <div class="flex items-center gap-5 flex-wrap gap-y-2">
                     <img class="h-7" src="../assets/company/afterpay.png" alt="">
                     <img class="h-7" src="../assets/company/Company.png" alt="">
                     <img class="h-7" src="../assets/company/maze.png" alt="">
