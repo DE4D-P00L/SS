@@ -33,6 +33,8 @@
             <li><a href="" class="flex items-center gap-2">Case study <img src="../assets/down.png" alt=""></a></li>
             <li><a href="" class="flex items-center gap-2">Resources <img src="../assets/down.png" alt=""></a></li>
             <li><a href="">Contact</a></li>
+            <li><button class="border-2 border-black text-black font-semibold px-[30px] shrink-0 py-[13px] rounded-full">Get Started</button></li>
+              <li><button class="bg-black text-white px-[13px] py-[13px] rounded-full shrink-0"><img src="../assets/bell.png" alt=""></button></li>
         </ul>
 
     </div>  
