@@ -1,6 +1,6 @@
 <template>
     <section class="w-full p-3 mt-[35px] ">
-        <div class="bg-black rounded-[30px] size-full text-white p-[25px] sm:p-[50px] flex flex-col justify-between gap-5 z-[1] relative overflow-hidden">
+        <div class="bg-black rounded-[30px] size-full text-white p-[25px] sm:p-[50px] flex flex-col justify-between gap-10 z-[1] relative overflow-hidden">
             <img src="../assets/bg.png" class="absolute object-cover inset-0 -z-[10]" alt="">
             <h2 class="text-3xl md:text-5xl text-left sm:text-center z-[1]">Real-world examples of how we have helped companies achieve their marketing objectives.</h2>
             <div class="text-4 font-bold flex justify-center gap-6 flex-wrap">
